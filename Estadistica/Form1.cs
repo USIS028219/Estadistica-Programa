@@ -12,12 +12,18 @@ namespace Estadistica
 {
     public partial class Form1 : Form
     {
+        Estadistica objEstadistica = new Estadistica();
         public Form1()
         {
             InitializeComponent();
         }
 
         private void btnMediaAritmetica_Click(object sender, EventArgs e)
+        {
+            lblRespuesta_Serie.Text = "X=" + objEstadistica.media(txtSerie.Text.Split(','));
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
