@@ -12,7 +12,7 @@ namespace Estadistica
 {
     public partial class Form1 : Form
     {
-        Estadistica objEstadistica = new Estadistica();
+        estadistica objEstadistica = new estadistica();
         public Form1()
         {
             InitializeComponent();
