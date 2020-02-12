@@ -27,5 +27,10 @@ namespace Estadistica
         {
 
         }
+
+        private void btnCalcularEstandar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
